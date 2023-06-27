@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorage.Mvc.Demo", "AzureStorage.Mvc.Demo\AzureStorage.Mvc.Demo.csproj", "{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event-Registration-With-AzureStorageTable", "Event-Registration-With-AzureStorageTable\Event-Registration-With-AzureStorageTable.csproj", "{3D5CD27B-5DEC-4860-9615-1A1948A92E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration.Domain", "Registration.Data\Registration.Domain.csproj", "{9C4C0C52-B64F-4307-ADF2-1C5347F614DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regiatration.Attendance.Tests", "Regiatration.Attendance.Tests\Regiatration.Attendance.Tests.csproj", "{CD469069-8DF1-428E-B225-C4A4336D039B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration.Attendance.Application", "Registration.Attendance.Services\Registration.Attendance.Application.csproj", "{FFB92443-0E8D-40D6-A388-5ADD2C3A2B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration.Infrastructure", "Registration.Infrastructure\Registration.Infrastructure.csproj", "{FE249955-6821-4FEE-A818-405E2AD46E5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5CD27B-5DEC-4860-9615-1A1948A92E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5CD27B-5DEC-4860-9615-1A1948A92E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5CD27B-5DEC-4860-9615-1A1948A92E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5CD27B-5DEC-4860-9615-1A1948A92E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4C0C52-B64F-4307-ADF2-1C5347F614DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4C0C52-B64F-4307-ADF2-1C5347F614DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4C0C52-B64F-4307-ADF2-1C5347F614DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4C0C52-B64F-4307-ADF2-1C5347F614DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD469069-8DF1-428E-B225-C4A4336D039B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD469069-8DF1-428E-B225-C4A4336D039B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD469069-8DF1-428E-B225-C4A4336D039B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD469069-8DF1-428E-B225-C4A4336D039B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB92443-0E8D-40D6-A388-5ADD2C3A2B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB92443-0E8D-40D6-A388-5ADD2C3A2B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB92443-0E8D-40D6-A388-5ADD2C3A2B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB92443-0E8D-40D6-A388-5ADD2C3A2B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE249955-6821-4FEE-A818-405E2AD46E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE249955-6821-4FEE-A818-405E2AD46E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE249955-6821-4FEE-A818-405E2AD46E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE249955-6821-4FEE-A818-405E2AD46E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FCF9201-D386-479E-9380-B48615D16496}
+	EndGlobalSection
+EndGlobal
