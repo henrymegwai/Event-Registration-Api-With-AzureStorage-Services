@@ -13,5 +13,6 @@ namespace Registration.Attendance.Application.Models
         public required string EmailAddress { get; set; }
         //partition key
         public string Industry { get; set; }
+        public string ImageName { get; set; }
     }
 }

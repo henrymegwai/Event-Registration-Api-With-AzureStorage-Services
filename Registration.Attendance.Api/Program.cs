@@ -1,6 +1,8 @@
 using Registration.Attendance.Application;
 
 using Registration.Infrastructure.Services;
+using Registration.Infrastructure.Services.BlobService;
+using Registration.Infrastructure.Services.QueueService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<ITableStorageService, TableStorageService>();
+builder.Services.AddScoped<IBlobStorageService, BlobStorageService>();
+builder.Services.AddScoped<IQueueStorageService, QueueStorageService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -31,7 +31,6 @@ namespace Registration.Infrastructure.Services
             var tableClient = await GetTableClient();
             // the upsert is responsible for updating and also creating the Attendance entity if it does not exist in the table
             attendeeEntity.PartitionKey = attendeeEntity.Industry;
-            attendeeEntity.RowKey = Guid.NewGuid().ToString();
             await tableClient.UpsertEntityAsync(attendeeEntity);
         }
 

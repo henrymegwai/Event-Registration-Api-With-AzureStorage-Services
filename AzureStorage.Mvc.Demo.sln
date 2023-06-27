@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorage.Mvc.Demo", "AzureStorage.Mvc.Demo\AzureStorage.Mvc.Demo.csproj", "{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event-Registration-With-AzureStorageTable", "Event-Registration-With-AzureStorageTable\Event-Registration-With-AzureStorageTable.csproj", "{3D5CD27B-5DEC-4860-9615-1A1948A92E64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration.Attendance.Api", "Event-Registration-With-AzureStorageTable\Registration.Attendance.Api.csproj", "{3D5CD27B-5DEC-4860-9615-1A1948A92E64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration.Domain", "Registration.Data\Registration.Domain.csproj", "{9C4C0C52-B64F-4307-ADF2-1C5347F614DB}"
 EndProject
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E5CBA16-11EE-459E-BABC-2C4FE29D2BB6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3D5CD27B-5DEC-4860-9615-1A1948A92E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D5CD27B-5DEC-4860-9615-1A1948A92E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D5CD27B-5DEC-4860-9615-1A1948A92E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
