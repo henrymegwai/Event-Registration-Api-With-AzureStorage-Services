@@ -2,10 +2,11 @@
 using Registration.Attendance.Application;
 using Registration.Attendance.Application.Models;
 using Registration.Domain;
+using Registration.Infrastructure.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace Event_Registration_With_AzureStorageTable.Controllers
+namespace Registration.Attendance.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -30,7 +31,7 @@ namespace Event_Registration_With_AzureStorageTable.Controllers
         [HttpGet("{id}/{industry}")]
         public async Task<IActionResult> Get(string id, string industry)
         {
-           var attendee = await _storageService.GetAttendees();
+            var attendee = await _storageService.GetAttendees();
             if (attendee == null)
                 return NotFound();
             return Ok(attendee);
@@ -40,7 +41,7 @@ namespace Event_Registration_With_AzureStorageTable.Controllers
         [HttpPost("signup")]
         public async Task<IActionResult> Post([FromBody] AttendanceModel model)
         {
-            if(model == null)
+            if (model == null)
             {
                 return BadRequest("Validation error, Attendance is required");
             }

@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Event_Registration_With_AzureStorageTable</RootNamespace>
+    <RootNamespace>Registration.Attendance.Api</RootNamespace>
     <UserSecretsId>738a252a-d6d7-4661-b1a5-c8f8deb65637</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
